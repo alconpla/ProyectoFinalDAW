@@ -1,0 +1,76 @@
+.py-4 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: calc(100vh - 117px);
+    min-height: 91vh;
+    position: relative;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.ypt {
+    padding-top: 1.5rem !important;
+}
+
+.container-gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: .99;
+    background: #448ef6;
+    background: -moz-linear-gradient(45deg, #29bae4 0%, #ee76ad 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, #29bae4), color-stop(100%, #ee76ad));
+    background: -webkit-linear-gradient(45deg, #29bae4 0%, #ee76ad 100%);
+    background: -o-linear-gradient(45deg, #29bae4 0%, #ee76ad 100%);
+    background: -ms-linear-gradient(45deg, #29bae4 0%, #ee76ad 100%);
+    background: linear-gradient(45deg, #29bae4 0%, #ee76ad 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#448ef6', endColorstr='#af05a9', GradientType=1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wifilogo {
+    width: 30%;
+}
+
+.card-wifi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.wifi-button {
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    border-radius: 30px;
+    padding: 0.7rem 2rem 0.7rem 2rem;
+    background: #29bae4;
+    transition: 1s;
+}
+
+.wifi-button:hover {
+    opacity: .6;
+    background: #ee76ad;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.btn-link {
+    font-weight: 400;
+    color: #29bae4;
+    text-decoration: none;
+}
+
+
+/* del dashboard */
+
+.container-fluid {
+    padding-top: 20px;
+}
